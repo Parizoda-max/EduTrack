@@ -1,16 +1,118 @@
-# React + Vite
+# 📋 Attendance Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and modern **Attendance Management System** designed for schools and learning centers.
 
-Currently, two official plugins are available:
+The system helps teachers manage student attendance and allows students to view their own attendance records.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+### 👨‍🏫 Teacher Dashboard
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* View students and classes
+* Mark students as Present, Absent, or Late
+* Record arrival and departure times
+* View attendance history
+* Search and filter students
+* View attendance statistics
+* Edit attendance records
 
-## Expanding the Oxlint configuration
+### 👨‍🎓 Student Dashboard
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+* View personal attendance
+* Check arrival and departure times
+* View attendance history
+* See attendance percentage
+* Check daily attendance status
+
+## 📊 Attendance Status
+
+| Status    | Description                 |
+| --------- | --------------------------- |
+| ✅ Present | Student attended the lesson |
+| ❌ Absent  | Student did not attend      |
+| ⏰ Late    | Student arrived late        |
+
+## 🔐 User Roles
+
+The system has separate interfaces for:
+
+* **Teacher** — manages students and attendance
+* **Student** — views personal attendance information
+
+## 🎯 Main Goals
+
+* Make attendance management easier
+* Reduce manual attendance work
+* Keep attendance records organized
+* Provide clear attendance statistics
+* Give students access to their own records
+
+## 🎨 Design
+
+The interface focuses on simplicity and usability.
+
+* Clean dashboard
+* Limited color palette
+* Clear attendance statuses
+* Responsive design
+* No gradients
+* Minimal unnecessary animations
+
+## 🛠️ Technologies
+
+* React
+* JavaScript
+* Vite
+* HTML
+* CSS
+
+## 📱 Responsive
+
+The website is designed to work on:
+
+* 💻 Desktop
+* 📱 Mobile
+* 📟 Tablet
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/attendance-management-system.git
+```
+
+Open the project:
+
+```bash
+cd attendance-management-system
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 📌 Future Improvements
+
+Possible future features:
+
+* Automatic attendance notifications
+* Advanced reports
+* Export attendance to Excel/PDF
+* Attendance calendar
+* Parent dashboard
+* Online attendance marking
+* Database integration
+
+## 👩‍💻 Author
+
+Developed as an educational project for practicing modern web development and dashboard design.
+
